@@ -48,3 +48,11 @@ MiniMCommerce/
 ├── Views/
 ├── MiniMCommerceApp.swift
 
+---
+
+## Known Issues
+
+Cart data is not persisted between app launches (no CoreData/UserDefaults yet)
+No animations or transitions on add/remove
+
+
