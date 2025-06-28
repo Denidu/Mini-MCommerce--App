@@ -1,10 +1,10 @@
-#MiniMCommerce – iOS App
+# MiniMCommerce – iOS App
 
 A simple e-commerce demo app built with **SwiftUI**, **MVVM**, and **Alamofire**. This app displays a list of products, allows users to view product details, add items to a cart, and manage cart items.
 
 ---
 
-##Features
+## Features
 
 - Product list screen with images, names, and prices
 - Detailed product view with description, rating, and “Add to Cart” functionality
@@ -15,7 +15,7 @@ A simple e-commerce demo app built with **SwiftUI**, **MVVM**, and **Alamofire**
 
 ---
 
-##Tech Stack
+## Tech Stack
 
 - `Swift`
 - `SwiftUI`
@@ -25,7 +25,7 @@ A simple e-commerce demo app built with **SwiftUI**, **MVVM**, and **Alamofire**
 
 ---
 
-##Getting Started
+## Getting Started
 
 1. Clone this repository:
    ```bash
@@ -40,7 +40,7 @@ A simple e-commerce demo app built with **SwiftUI**, **MVVM**, and **Alamofire**
 
 ---
 
-##Project Structure
+## Project Structure
 
 MiniMCommerce/
 ├── Models/
