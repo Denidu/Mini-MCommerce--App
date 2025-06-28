@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AB45A0192E0FC1A300D493A1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AB45A0182E0FC1A300D493A1 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AB8147902E0FA23100F0C683 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB45A0192E0FC1A300D493A1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = MiniMCommerce;
 			packageProductDependencies = (
+				AB45A0182E0FC1A300D493A1 /* Alamofire */,
 			);
 			productName = MiniMCommerce;
 			productReference = AB81477F2E0FA22F00F0C683 /* MiniMCommerce.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = AB8147762E0FA22F00F0C683;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AB45A0172E0FC1A300D493A1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AB8147802E0FA22F00F0C683 /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB45A0172E0FC1A300D493A1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB45A0182E0FC1A300D493A1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB45A0172E0FC1A300D493A1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB8147772E0FA22F00F0C683 /* Project object */;
 }

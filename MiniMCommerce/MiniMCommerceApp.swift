@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct MiniMCommerceApp: App {
+    @StateObject var cartViewModel = CartViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ProductView()
+            }
+            .environmentObject(cartViewModel)
         }
     }
 }
+
