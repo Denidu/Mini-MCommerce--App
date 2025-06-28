@@ -53,17 +53,12 @@ MiniMCommerce/
 ## Unit Testing
 This project includes unit tests for critical logic in the CartViewModel, ensuring reliable behavior for:
 
-Adding items to the cart
-
-Increasing quantities of existing items
-
-Removing items
-
-Updating item quantities
-
-Calculating total price
-
-Clearing the cart
+- Adding items to the cart
+- Increasing quantities of existing items
+- Removing items
+- Updating item quantities
+- Calculating total price
+- Clearing the cart
 
 ---
 
