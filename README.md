@@ -25,6 +25,20 @@ A simple e-commerce demo app built with **SwiftUI**, **MVVM**, and **Alamofire**
 
 ---
 
+## Architecture Overview
+
+- The app uses the MVVM (Model-View-ViewModel) architecture:
+
+- Models represent product and cart item structures conforming to Codable and Identifiable.
+
+- ViewModels handle data fetching (e.g., from API) and business logic (e.g., updating cart, calculating totals).
+
+- Views use @StateObject and @EnvironmentObject to observe changes and render UI reactively.
+
+- This pattern ensures clear separation of concerns, scalability, and ease of testing.
+
+  ---
+
 ## Getting Started
 
 1. Clone this repository:
@@ -49,6 +63,18 @@ MiniMCommerce/
 ├── MiniMCommerceApp.swift
 
 ---
+
+## Optional Features
+
+These features were optionally added to improve the app:
+
+- Stepper UI for quantity control in the cart
+
+- Cart total calculation updates in real-time
+
+- User feedback alert when adding an item to the cart
+
+- Toolbar buttons and clean native navigation experience
 
 ## Unit Testing
 This project includes unit tests for critical logic in the CartViewModel, ensuring reliable behavior for:
